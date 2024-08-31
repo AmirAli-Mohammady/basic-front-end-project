@@ -1,0 +1,294 @@
+:root{
+    box-sizing: border-box;
+    font-family: 'SoDoSans';
+}
+@font-face {
+    font-family: 'SoDoSans';
+    src: url('./font/SoDoSans-Regular.woff2');
+}
+body{
+    font-family: 'SoDoSans';
+}
+._container{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.header_container{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    height: 99px;
+    justify-content: space-between;
+}
+.left_header{
+    align-items: center;
+    text-align: center;
+}
+.header_ul{
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 0;
+    gap: 2rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+.text-decoration-none{
+    color: black ;
+}
+.text-decoration-none:hover{
+    color: #00754a;
+}
+.header_ul>li{
+    cursor: pointer;
+}
+.header_ul>li:hover{
+    color: #00754a;
+}
+.left_header>svg{
+    width: 51px;
+    height: 51px;
+}
+.right_header{
+    display: flex;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+.find_store_btn{
+    padding-top: 2.5rem; 
+    margin-right: 4rem;
+}
+.right_header>button{
+    font-weight: 600;
+    height: 36px;
+    border-radius: 20px;
+    margin-top: 2.325rem; 
+    padding: 0 20px;
+}
+.sign_in_btn{
+    background-color: white;
+    border: 1px solid black;
+    margin-right: 1rem;
+}
+.Join_now_btn{
+    background-color: black;
+    color: white;
+}
+.sticky{
+    position: -webkit-sticky;
+    position:sticky;
+    height: 50px;
+    background-color: #1e3932;
+    color: #fff;
+    top: 0;
+    z-index: 11;
+}
+.star_bucks_reward{
+    width: 100%;
+    padding-top:12px ;
+    font-weight: 600;
+}
+.Advertise_reward{
+    height: 760px;
+    background-color:  #d4e9e2;
+    width: 100%;
+    margin-bottom: 6.4rem;
+}
+.Advertise_text{
+    padding-top: 270px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.Advertise_p{
+    font-size: 20px;
+    padding-top: 30px;
+}
+.Advertise_tag{
+    color: black;
+}
+.Advertise_tag:hover{
+    font-size: 20px;
+    text-decoration: none;
+}
+.Advertise_button{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: fit-content;
+    height: 36px;
+    background-color: #008248;
+    color: #fff;
+    border-radius: 20px;
+}
+.hamburger_menu{
+    display: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.main_content{
+    padding-top: 6.4rem;
+}
+.get_start_text{
+    text-align: center;
+    flex-direction: column;
+    gap: 0;
+}
+.cards{
+    gap: 100px;
+    padding-top: 48px;
+}
+.cards{
+    justify-content: center;
+}
+.box{
+    text-align: center;
+}
+.box>img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 24px;
+}
+.box>h3{
+    font-size: 19px;
+    padding-bottom: 4px;
+    font-weight: 600;
+}
+.box>p{
+    font-size: 16px;
+    padding-top: 16px;
+}
+.caption_paragraf>a{
+    color: #00754a;
+}
+.caption_paragraf>a:hover{
+    text-decoration: none;
+}
+.product_title{
+    margin-top: 100px;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    align-content: center;
+    background-color: #f1f8f6;
+    
+}
+.title_text{
+    margin-bottom: 60px;
+    padding-top: 30px;
+}
+
+.product_rating {
+    display: flex;
+    justify-content: center;
+    background-color: #f1f8f6;
+    gap: 35px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.product_rating button{
+    font-size: 24px;
+    border: 0;
+    background-color: transparent;
+    font-weight: 600;
+}
+.product_rating sub{
+    color: yellowgreen;
+    font-size: 16px;
+}
+.line{
+    position: absolute;
+    width: inherit;
+}
+.rating_underline{
+    position: absolute;
+    bottom: -25px;
+    left: -22px;
+    width: inherit;
+    height: 5px;
+    background-color:#008248;
+}
+.product_picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d4e9e2;
+    box-shadow: inset 0 7px 9px -7px #00000024;
+}
+.product_picture img{
+    width: 30vw; 
+}
+.starbucks_ability{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+    gap: 20px;
+}
+.ability_boxes{
+    gap: 100px;
+    padding-bottom: 6.4rem;
+    justify-content: center;
+}
+.ability_box1{
+    width:400px ;
+}
+.ability_box1 button{
+    max-width: 103px;
+    border:0;
+    padding-right:20px;
+    height: 30px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    text-decoration: underline;
+    color: #008248;
+}
+.ability_box1 button:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+@media (max-width:980px){
+    .right_header{
+        display: none;
+    }
+    .hamburger_menu{
+        display: flex;
+        margin-top: 25px;
+    }
+    .ability_boxes{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:720px){
+    .li_container{
+        display: none;
+    }
+}
+@media (max-width:768px){
+    .cards{
+        flex-wrap: wrap;
+    }
+    .product_picture{
+        flex-direction: column;
+        font-size: 10px;
+    }
+    .product_pic_text{
+        font-size: 15px;
+        text-align: center;
+    }
+    .product_pic_text h2{
+        font-size: 19px;
+        text-align: center;
+    }
+    .product_rating button{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .product_picture img{
+        width: 70vw;
+    }
+}

@@ -1,0 +1,161 @@
+:root{
+    box-sizing: border-box;
+    font-family: 'SoDoSans';
+}
+@font-face {
+    font-family: 'SoDoSans';
+    src: url('../font/SoDoSans-Regular.woff2');
+}
+body{
+    font-family: 'SoDoSans';
+}
+._container{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.header_container{
+    padding-left: 3.1rem;
+    padding-right: 4rem;
+    height: 99px;
+    justify-content: space-between;
+    border-bottom: 1px solid #dbd9d7;
+}
+.left_header{
+    align-items: center;
+    text-align: center;
+}
+.header_ul{
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 0;
+    gap: 2rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+.header_ul>li{
+    cursor: pointer;
+}
+.header_ul>li:hover{
+    color: #00754a;
+}
+.left_header>svg{
+    width: 51px;
+    height: 51px;
+}
+.right_header{
+    display: flex;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+.find_store_btn{
+    padding-top: 2.5rem; 
+    margin-right: 4rem;
+}
+.right_header>button{
+    font-weight: 600;
+    height: 36px;
+    border-radius: 20px;
+    margin-top: 2.325rem; 
+    padding: 0 20px;
+}
+.sign_in_btn{
+    background-color: white;
+    border: 1px solid black;
+    margin-right: 1rem;
+}
+.Join_now_btn{
+    background-color: black;
+    color: white;
+}
+.hamburger_menu{
+    display: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.sticky_container{
+    position: sticky;
+    top: 0;
+    box-shadow: inset 0 7px 9px -7px #00000024;
+    height: 51px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #dbd9d7;
+    font-size: 13px;
+}
+.header_items{
+    gap: 20px;
+    padding-top: 15px;
+}
+.items{
+    list-style-type: none;
+}
+.nigga{
+    font-size: 15px;
+    flex-direction: column;
+    gap: 20px;
+    color: #00000094;
+}
+.title{
+    font-size: 19px;
+    color: black;
+}
+.li_items{
+    list-style-type: none;
+}
+.the_menu{
+    padding-right: 18%;
+    padding-left: calc(400px - 150px - 131px);
+    width: 100%;
+}
+.drink>h3{
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    padding-left: 1.5rem;
+    align-items: center;  
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.picture>img{ 
+    width: 121px;
+    height: 121px;
+    border-radius: 10rem; 
+    margin-left: 1rem;
+}
+
+
+
+@media (max-width:980px){
+    .right_header{
+        display: none;
+    }
+    .hamburger_menu{
+        display: flex;
+        margin-top: 25px;
+    }
+    .ability_boxes{
+        flex-wrap: wrap;
+    }
+    .drinks{
+        flex-direction: column;
+    }
+    .nigger{
+        margin-top: 2.5rem;
+    }
+}
+@media (max-width:720px){
+    .li_container{
+        display: none;
+    }
+}
+@media (max-width:576px){
+    .links{
+        display: none;
+    }
+    .the_menu{
+        padding-left: 2.4rem;
+    }
+}

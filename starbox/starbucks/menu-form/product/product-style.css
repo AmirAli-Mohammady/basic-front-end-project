@@ -1,0 +1,179 @@
+:root{
+    box-sizing: border-box;
+    font-family: 'SoDoSans';
+}
+@font-face {
+    font-family: 'SoDoSans';
+    src: url('/starbucks-newvirsion/font/SoDoSans-Regular.woff2');
+}
+body{
+    font-family: 'SoDoSans'; 
+}
+
+.body_reg{
+    transition: all 250ms ease-in-out 100ms;
+}
+
+.nigger{
+    display: flex;
+    justify-content: center;
+}
+.add_to_card{
+    width: 50vw;
+    position: fixed;
+    bottom: 12px;
+    padding: 20px 20px;
+    background-color: #00754a ;
+    box-shadow: 0 0 6px #0000003d, 0 8px 12px #00000024;
+    color: #dbd9d7;
+    border-radius: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 250ms ease-in-out 50ms;
+}
+.add_to_card:hover{
+    transform: scale(1.1)
+}
+._container{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.header_container{
+    padding-left: 3.1rem;
+    padding-right: 4rem;
+    height: 99px;
+    justify-content: space-between;
+    border-bottom: 1px solid #dbd9d7;
+}
+.left_header{
+    align-items: center;
+    text-align: center;
+}
+.header_ul{
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 0;
+    gap: 2rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+.header_ul>li{
+    cursor: pointer;
+}
+.header_ul>li:hover{
+    color: #00754a;
+}
+.left_header>svg{
+    width: 51px;
+    height: 51px;
+}
+.right_header{
+    display: flex;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+.find_store_btn{
+    padding-top: 2.5rem; 
+    margin-right: 4rem;
+}
+.right_header>button{
+    font-weight: 600;
+    height: 36px;
+    border-radius: 20px;
+    margin-top: 2.325rem; 
+    padding: 0 20px;
+}
+.sign_in_btn{
+    background-color: white;
+    border: 1px solid black;
+    margin-right: 1rem;
+}
+.Join_now_btn{
+    background-color: black;
+    color: white;
+}
+.hamburger_menu{
+    display: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+
+
+.product-container {
+    background-color: #1f3933;;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 443px;
+}
+.product-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.product-image img {
+    width: 350px;
+    height: 350px;
+}
+
+.product-details{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+}
+#product-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+#product-price {
+    font-size: 24px;
+    color: #e67e22;
+    margin-bottom: 20px;
+}
+
+#product-description {
+    font-size: 16px;
+    color: #ffffffb3;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+#newspan{
+    font-size: 18px;
+    font-weight: 600 !important;
+    padding-right: 12px;
+}
+
+
+@media (max-width:980px){
+    .right_header{
+        display: none;
+    }
+    .hamburger_menu{
+        display: flex;
+        margin-top: 25px;
+    }
+    .ability_boxes{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:720px){
+    .li_container{
+        display: none;
+    }
+}
+
+
