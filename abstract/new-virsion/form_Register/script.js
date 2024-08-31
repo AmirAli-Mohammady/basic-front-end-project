@@ -19,6 +19,6 @@ function submitHandler(event) {
         localStorage.setItem('password', password.value);  
         alert('Registration successful!');  
         window.close()
-        window.open('../index.html')
+        window.open('../form/form.html')
     }  
 }
