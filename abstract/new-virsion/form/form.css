@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(69, 90, 100);
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    width: 100vw;
+}
+form{
+    margin-top: 5rem;
+    width: 520px;
+    background-color: #fff;
+    border-radius: 15px ;
+    box-shadow: 6px 5px 20px lightblue;
+}
+.container{
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.container>input{
+    max-width: 250px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    box-shadow: 6px 5px 20px lightblue;
+    border: 0;
+}
+.container>label{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding-right:100px ;
+}
+.submit_btn{
+    max-width: 250px;
+}
+.container>input:focus{
+    outline: 0;
+}
+.user_name{
+    padding-left: 20px;
+}
+.submit_btn{
+    padding-right: 150px;
+    padding-right: 100px;
+    margin-top: 50px;
+    text-align: center;
+}
+.a_tag{
+    text-decoration: none;
+}
+.a_tag:hover{
+    text-decoration: underline;
+}
